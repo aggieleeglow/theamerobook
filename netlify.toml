@@ -1,0 +1,9 @@
+# Static site — no build step. Push to GitHub deploys when the repo is linked in Netlify.
+[build]
+  publish = "."
+
+# Netlify serves index.html at / by default; map root to this page.
+[[redirects]]
+  from = "/"
+  to = "/the-amero-book.html"
+  status = 200
