@@ -1,9 +1,73 @@
-# Static site — no build step. Push to GitHub deploys when the repo is linked in Netlify.
+# Static site with clean URLs
 [build]
   publish = "."
 
-# Netlify serves index.html at / by default; map root to this page.
+# Headers for SEO and security
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/css/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/js/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Redirect old single-page URL to new homepage
 [[redirects]]
-  from = "/"
-  to = "/the-amero-book.html"
-  status = 200
+  from = "/the-amero-book.html"
+  to = "/"
+  status = 301
+
+# Trailing slash enforcement for clean URLs
+[[redirects]]
+  from = "/book"
+  to = "/book/"
+  status = 301
+
+[[redirects]]
+  from = "/digital-amero"
+  to = "/digital-amero/"
+  status = 301
+
+[[redirects]]
+  from = "/stablecoins"
+  to = "/stablecoins/"
+  status = 301
+
+[[redirects]]
+  from = "/xrp-cross-border-payments"
+  to = "/xrp-cross-border-payments/"
+  status = 301
+
+[[redirects]]
+  from = "/research"
+  to = "/research/"
+  status = 301
+
+[[redirects]]
+  from = "/articles"
+  to = "/articles/"
+  status = 301
+
+[[redirects]]
+  from = "/speaking"
+  to = "/speaking/"
+  status = 301
+
+[[redirects]]
+  from = "/author-che-sun-lee"
+  to = "/author-che-sun-lee/"
+  status = 301
