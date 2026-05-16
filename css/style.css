@@ -194,17 +194,21 @@ footer{background:var(--navy);color:rgba(255,255,255,0.7);padding:3rem 0 2rem}
 }
 
 /* AUTHOR BIO */
-.author-bio{display:grid;grid-template-columns:300px 1fr;gap:48px;align-items:start;padding:32px 0}
-.author-photo img{width:100%;max-width:300px;object-fit:contain;border-radius:6px;display:block}
+.author-section{padding:28px 0 24px;background:#fff}
+.author-section .wrap{max-width:1280px}
+.author-bio{display:grid;grid-template-columns:360px minmax(0,1fr);gap:48px;align-items:start}
+.author-photo{padding-top:74px}
+.author-photo img{width:100%;max-width:360px;object-fit:contain;border-radius:0;display:block}
 .author-bio .content{max-width:none}
-.author-bio .content h2{font-size:44px;font-weight:700;margin-top:0}
-.author-bio .content p{font-size:clamp(18px,1.15vw,20px);line-height:1.7}
+.author-bio .content h2{font-size:44px;font-weight:700;margin-top:0;margin-bottom:1.25rem;line-height:1.12}
+.author-bio .content p{font-size:clamp(18px,1.28vw,20px);line-height:1.72;margin-bottom:1.35rem;color:#162235}
 @media(max-width:900px){
-  .author-bio{grid-template-columns:1fr;padding:24px 0;text-align:left}
-  .author-photo{justify-self:center;margin-bottom:1.5rem}
+  .author-section{padding:32px 0 40px}
+  .author-bio{grid-template-columns:1fr;text-align:left}
+  .author-photo{justify-self:center;padding-top:0;margin-bottom:1.5rem}
   .author-photo img{max-width:280px}
-  .author-bio .content h2{font-size:34px}
-  .author-bio .content p{font-size:17px}
+  .author-bio .content h2{font-size:34px;line-height:1.16}
+  .author-bio .content p{font-size:17px;line-height:1.7}
 }
 
 /* KOREAN TYPOGRAPHY */
