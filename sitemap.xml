@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- Home -->
   <url>
     <loc>https://www.theamerobook.com/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.theamerobook.com/"/>
@@ -9,38 +10,6 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.theamerobook.com/it/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theamerobook.com/"/>
     <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.theamerobook.com/book/</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.theamerobook.com/digital-amero/</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.theamerobook.com/stablecoins/</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.theamerobook.com/xrp-cross-border-payments/</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.theamerobook.com/research/</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.theamerobook.com/articles/</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.theamerobook.com/speaking/</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.theamerobook.com/author-che-sun-lee/</loc>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.theamerobook.com/fr/</loc>
@@ -81,5 +50,421 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.theamerobook.com/it/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theamerobook.com/"/>
     <priority>0.8</priority>
+  </url>
+
+  <!-- Book -->
+  <url>
+    <loc>https://www.theamerobook.com/book/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theamerobook.com/book/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.theamerobook.com/fr/le-livre/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theamerobook.com/es/el-libro/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.theamerobook.com/ko/book/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.theamerobook.com/it/il-libro/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theamerobook.com/book/"/>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.theamerobook.com/fr/le-livre/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theamerobook.com/book/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.theamerobook.com/fr/le-livre/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theamerobook.com/es/el-libro/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.theamerobook.com/ko/book/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.theamerobook.com/it/il-libro/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theamerobook.com/book/"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.theamerobook.com/es/el-libro/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theamerobook.com/book/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.theamerobook.com/fr/le-livre/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theamerobook.com/es/el-libro/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.theamerobook.com/ko/book/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.theamerobook.com/it/il-libro/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theamerobook.com/book/"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.theamerobook.com/ko/book/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theamerobook.com/book/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.theamerobook.com/fr/le-livre/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theamerobook.com/es/el-libro/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.theamerobook.com/ko/book/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.theamerobook.com/it/il-libro/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theamerobook.com/book/"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.theamerobook.com/it/il-libro/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theamerobook.com/book/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.theamerobook.com/fr/le-livre/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theamerobook.com/es/el-libro/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.theamerobook.com/ko/book/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.theamerobook.com/it/il-libro/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theamerobook.com/book/"/>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Digital Amero -->
+  <url>
+    <loc>https://www.theamerobook.com/digital-amero/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theamerobook.com/digital-amero/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.theamerobook.com/fr/amero-numerique/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theamerobook.com/es/amero-digital/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.theamerobook.com/ko/digital-amero/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.theamerobook.com/it/amero-digitale/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theamerobook.com/digital-amero/"/>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.theamerobook.com/fr/amero-numerique/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theamerobook.com/digital-amero/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.theamerobook.com/fr/amero-numerique/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theamerobook.com/es/amero-digital/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.theamerobook.com/ko/digital-amero/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.theamerobook.com/it/amero-digitale/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theamerobook.com/digital-amero/"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.theamerobook.com/es/amero-digital/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theamerobook.com/digital-amero/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.theamerobook.com/fr/amero-numerique/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theamerobook.com/es/amero-digital/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.theamerobook.com/ko/digital-amero/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.theamerobook.com/it/amero-digitale/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theamerobook.com/digital-amero/"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.theamerobook.com/ko/digital-amero/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theamerobook.com/digital-amero/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.theamerobook.com/fr/amero-numerique/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theamerobook.com/es/amero-digital/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.theamerobook.com/ko/digital-amero/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.theamerobook.com/it/amero-digitale/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theamerobook.com/digital-amero/"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.theamerobook.com/it/amero-digitale/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theamerobook.com/digital-amero/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.theamerobook.com/fr/amero-numerique/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theamerobook.com/es/amero-digital/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.theamerobook.com/ko/digital-amero/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.theamerobook.com/it/amero-digitale/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theamerobook.com/digital-amero/"/>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Stablecoins -->
+  <url>
+    <loc>https://www.theamerobook.com/stablecoins/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theamerobook.com/stablecoins/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.theamerobook.com/fr/stablecoins/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theamerobook.com/es/stablecoins/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.theamerobook.com/ko/stablecoins/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.theamerobook.com/it/stablecoin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theamerobook.com/stablecoins/"/>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.theamerobook.com/fr/stablecoins/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theamerobook.com/stablecoins/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.theamerobook.com/fr/stablecoins/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theamerobook.com/es/stablecoins/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.theamerobook.com/ko/stablecoins/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.theamerobook.com/it/stablecoin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theamerobook.com/stablecoins/"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.theamerobook.com/es/stablecoins/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theamerobook.com/stablecoins/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.theamerobook.com/fr/stablecoins/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theamerobook.com/es/stablecoins/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.theamerobook.com/ko/stablecoins/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.theamerobook.com/it/stablecoin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theamerobook.com/stablecoins/"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.theamerobook.com/ko/stablecoins/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theamerobook.com/stablecoins/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.theamerobook.com/fr/stablecoins/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theamerobook.com/es/stablecoins/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.theamerobook.com/ko/stablecoins/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.theamerobook.com/it/stablecoin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theamerobook.com/stablecoins/"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.theamerobook.com/it/stablecoin/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theamerobook.com/stablecoins/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.theamerobook.com/fr/stablecoins/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theamerobook.com/es/stablecoins/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.theamerobook.com/ko/stablecoins/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.theamerobook.com/it/stablecoin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theamerobook.com/stablecoins/"/>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- XRP Cross-Border Payments -->
+  <url>
+    <loc>https://www.theamerobook.com/xrp-cross-border-payments/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theamerobook.com/xrp-cross-border-payments/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.theamerobook.com/fr/xrp-et-paiements/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theamerobook.com/es/xrp-pagos-transfronterizos/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.theamerobook.com/ko/xrp-cross-border-payments/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.theamerobook.com/it/xrp-pagamenti-transfrontalieri/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theamerobook.com/xrp-cross-border-payments/"/>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.theamerobook.com/fr/xrp-et-paiements/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theamerobook.com/xrp-cross-border-payments/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.theamerobook.com/fr/xrp-et-paiements/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theamerobook.com/es/xrp-pagos-transfronterizos/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.theamerobook.com/ko/xrp-cross-border-payments/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.theamerobook.com/it/xrp-pagamenti-transfrontalieri/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theamerobook.com/xrp-cross-border-payments/"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.theamerobook.com/es/xrp-pagos-transfronterizos/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theamerobook.com/xrp-cross-border-payments/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.theamerobook.com/fr/xrp-et-paiements/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theamerobook.com/es/xrp-pagos-transfronterizos/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.theamerobook.com/ko/xrp-cross-border-payments/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.theamerobook.com/it/xrp-pagamenti-transfrontalieri/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theamerobook.com/xrp-cross-border-payments/"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.theamerobook.com/ko/xrp-cross-border-payments/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theamerobook.com/xrp-cross-border-payments/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.theamerobook.com/fr/xrp-et-paiements/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theamerobook.com/es/xrp-pagos-transfronterizos/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.theamerobook.com/ko/xrp-cross-border-payments/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.theamerobook.com/it/xrp-pagamenti-transfrontalieri/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theamerobook.com/xrp-cross-border-payments/"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.theamerobook.com/it/xrp-pagamenti-transfrontalieri/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theamerobook.com/xrp-cross-border-payments/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.theamerobook.com/fr/xrp-et-paiements/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theamerobook.com/es/xrp-pagos-transfronterizos/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.theamerobook.com/ko/xrp-cross-border-payments/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.theamerobook.com/it/xrp-pagamenti-transfrontalieri/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theamerobook.com/xrp-cross-border-payments/"/>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Research -->
+  <url>
+    <loc>https://www.theamerobook.com/research/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theamerobook.com/research/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.theamerobook.com/fr/recherche/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theamerobook.com/es/investigacion/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.theamerobook.com/ko/research/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.theamerobook.com/it/ricerca/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theamerobook.com/research/"/>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.theamerobook.com/fr/recherche/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theamerobook.com/research/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.theamerobook.com/fr/recherche/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theamerobook.com/es/investigacion/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.theamerobook.com/ko/research/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.theamerobook.com/it/ricerca/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theamerobook.com/research/"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.theamerobook.com/es/investigacion/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theamerobook.com/research/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.theamerobook.com/fr/recherche/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theamerobook.com/es/investigacion/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.theamerobook.com/ko/research/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.theamerobook.com/it/ricerca/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theamerobook.com/research/"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.theamerobook.com/ko/research/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theamerobook.com/research/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.theamerobook.com/fr/recherche/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theamerobook.com/es/investigacion/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.theamerobook.com/ko/research/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.theamerobook.com/it/ricerca/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theamerobook.com/research/"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.theamerobook.com/it/ricerca/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theamerobook.com/research/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.theamerobook.com/fr/recherche/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theamerobook.com/es/investigacion/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.theamerobook.com/ko/research/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.theamerobook.com/it/ricerca/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theamerobook.com/research/"/>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Articles -->
+  <url>
+    <loc>https://www.theamerobook.com/articles/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theamerobook.com/articles/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.theamerobook.com/fr/articles/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theamerobook.com/es/articulos/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.theamerobook.com/ko/articles/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.theamerobook.com/it/articoli/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theamerobook.com/articles/"/>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.theamerobook.com/fr/articles/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theamerobook.com/articles/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.theamerobook.com/fr/articles/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theamerobook.com/es/articulos/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.theamerobook.com/ko/articles/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.theamerobook.com/it/articoli/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theamerobook.com/articles/"/>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.theamerobook.com/es/articulos/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theamerobook.com/articles/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.theamerobook.com/fr/articles/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theamerobook.com/es/articulos/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.theamerobook.com/ko/articles/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.theamerobook.com/it/articoli/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theamerobook.com/articles/"/>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.theamerobook.com/ko/articles/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theamerobook.com/articles/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.theamerobook.com/fr/articles/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theamerobook.com/es/articulos/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.theamerobook.com/ko/articles/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.theamerobook.com/it/articoli/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theamerobook.com/articles/"/>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.theamerobook.com/it/articoli/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theamerobook.com/articles/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.theamerobook.com/fr/articles/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theamerobook.com/es/articulos/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.theamerobook.com/ko/articles/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.theamerobook.com/it/articoli/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theamerobook.com/articles/"/>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Speaking -->
+  <url>
+    <loc>https://www.theamerobook.com/speaking/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theamerobook.com/speaking/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.theamerobook.com/fr/conferences/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theamerobook.com/es/conferencias/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.theamerobook.com/ko/speaking/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.theamerobook.com/it/conferenze/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theamerobook.com/speaking/"/>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.theamerobook.com/fr/conferences/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theamerobook.com/speaking/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.theamerobook.com/fr/conferences/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theamerobook.com/es/conferencias/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.theamerobook.com/ko/speaking/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.theamerobook.com/it/conferenze/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theamerobook.com/speaking/"/>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.theamerobook.com/es/conferencias/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theamerobook.com/speaking/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.theamerobook.com/fr/conferences/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theamerobook.com/es/conferencias/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.theamerobook.com/ko/speaking/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.theamerobook.com/it/conferenze/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theamerobook.com/speaking/"/>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.theamerobook.com/ko/speaking/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theamerobook.com/speaking/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.theamerobook.com/fr/conferences/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theamerobook.com/es/conferencias/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.theamerobook.com/ko/speaking/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.theamerobook.com/it/conferenze/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theamerobook.com/speaking/"/>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.theamerobook.com/it/conferenze/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theamerobook.com/speaking/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.theamerobook.com/fr/conferences/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theamerobook.com/es/conferencias/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.theamerobook.com/ko/speaking/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.theamerobook.com/it/conferenze/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theamerobook.com/speaking/"/>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Author -->
+  <url>
+    <loc>https://www.theamerobook.com/author-che-sun-lee/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theamerobook.com/author-che-sun-lee/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.theamerobook.com/fr/autrice-che-sun-lee/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theamerobook.com/es/autora-che-sun-lee/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.theamerobook.com/ko/author-che-sun-lee/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.theamerobook.com/it/autrice-che-sun-lee/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theamerobook.com/author-che-sun-lee/"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.theamerobook.com/fr/autrice-che-sun-lee/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theamerobook.com/author-che-sun-lee/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.theamerobook.com/fr/autrice-che-sun-lee/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theamerobook.com/es/autora-che-sun-lee/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.theamerobook.com/ko/author-che-sun-lee/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.theamerobook.com/it/autrice-che-sun-lee/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theamerobook.com/author-che-sun-lee/"/>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.theamerobook.com/es/autora-che-sun-lee/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theamerobook.com/author-che-sun-lee/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.theamerobook.com/fr/autrice-che-sun-lee/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theamerobook.com/es/autora-che-sun-lee/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.theamerobook.com/ko/author-che-sun-lee/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.theamerobook.com/it/autrice-che-sun-lee/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theamerobook.com/author-che-sun-lee/"/>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.theamerobook.com/ko/author-che-sun-lee/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theamerobook.com/author-che-sun-lee/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.theamerobook.com/fr/autrice-che-sun-lee/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theamerobook.com/es/autora-che-sun-lee/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.theamerobook.com/ko/author-che-sun-lee/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.theamerobook.com/it/autrice-che-sun-lee/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theamerobook.com/author-che-sun-lee/"/>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.theamerobook.com/it/autrice-che-sun-lee/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theamerobook.com/author-che-sun-lee/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.theamerobook.com/fr/autrice-che-sun-lee/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theamerobook.com/es/autora-che-sun-lee/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.theamerobook.com/ko/author-che-sun-lee/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.theamerobook.com/it/autrice-che-sun-lee/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theamerobook.com/author-che-sun-lee/"/>
+    <priority>0.7</priority>
   </url>
 </urlset>
