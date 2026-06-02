@@ -75,13 +75,12 @@ p:last-child{margin-bottom:0}
 .hero p{color:rgba(255,255,255,0.7)}
 .hero-img{text-align:center}
 .hero-img img{max-width:100%;aspect-ratio:9/16;object-fit:cover;margin:0 auto;border-radius:4px;box-shadow:0 12px 48px rgba(0,0,0,.3)}
-/* Homepage editorial hero: text-priority 55/45 split with a refined, secondary book cover */
+/* Homepage editorial hero: full-width text column aligned with the page sections below */
 .hero--home{padding:64px 0 68px}
 .hero--home .hero-grid{grid-template-columns:1fr;gap:clamp(2rem,4vw,3.5rem);align-items:center}
-.hero--home .hero-content{max-width:580px}
-.hero--home .hero-content h1{max-width:560px;line-height:1.1}
-.hero--home .hero-content .subtitle{max-width:540px}
-.hero--home .hero-content p{max-width:520px;line-height:1.65}
+.hero--home .hero-content{max-width:100%}
+.hero--home .hero-content h1{line-height:1.1}
+.hero--home .hero-content p{line-height:1.65}
 .hero--home .hero-img img{aspect-ratio:auto;width:min(100%,340px);max-height:500px;object-fit:contain;border-radius:8px;background:#fff;box-shadow:0 18px 48px rgba(0,0,0,.28)}
 /* Wide landscape book mockup: fills the image column with rounded corners */
 .hero--home .hero-img--wide img{width:min(100%,520px);max-height:none;border-radius:12px}
